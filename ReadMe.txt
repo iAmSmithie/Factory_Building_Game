@@ -11,6 +11,8 @@ Created in Unity using C#
 Unity version 6000.0.37f1
 Assets created in Blender
 
+Game is still under development and will be getting updates over time
+
 Try it out!
 Download is linked below
 
