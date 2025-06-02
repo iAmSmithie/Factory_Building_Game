@@ -17,3 +17,6 @@ Download is linked below
 https://drive.google.com/drive/folders/1tbeHPMOzWNJ4blyqU-ixD9yjsi4j73v_
 
 Full source code is available in repository
+
+© 2025 Ben Smith. All rights reserved.  
+This code is for evaluation purposes only and may not be copied, redistributed, or used for any other purpose without explicit permission.
