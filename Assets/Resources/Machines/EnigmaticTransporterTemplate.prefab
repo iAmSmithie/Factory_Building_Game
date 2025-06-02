@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2099197355275683532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9273999
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 60.963776
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.5644696
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      propertyPath: m_Name
+      value: EnigmaticTransporterTemplate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 837566118836176079}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1472486672274801075}
+  m_SourcePrefab: {fileID: 100100000, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+--- !u!1 &1288224169374825373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8dae2b612ce6a00499114b0bb6f61f29, type: 3}
+  m_PrefabInstance: {fileID: 2099197355275683532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &837566118836176079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288224169374825373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30132bd0ce9cfaf4d9e6194dda67f9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredMaterial: {fileID: 11400000, guid: 19111fd900bfeca479e18aa0ffbf4712, type: 2}
+  requiredAmount: 50
+  placementHeightOffset: 0.5
+  uiPanel: {fileID: 0}
+  inputInventoryContainer: {fileID: 0}
+  slotTemplatePrefab: {fileID: 5022114074846196346, guid: 86b70574c8595304cb535716db2cc44b, type: 3}
+--- !u!65 &-1472486672274801075
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288224169374825373}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.03, y: 0.03, z: 0.04}
+  m_Center: {x: 0, y: 0, z: 0.0064202994}
