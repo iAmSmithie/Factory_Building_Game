@@ -77,7 +77,7 @@ public class PlacementSystem : MonoBehaviour
         UpdateTargetPosition();
         UpdatePlacementIndicator();
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.X))
             CancelPlacement();
     }
     //Handles switching between conveyor and machine placement modes, toggles the conveyor mode on and off
